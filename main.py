@@ -15,7 +15,6 @@ choice = int(input())
 if choice == 1:
     print("VIDEO FULL PATH: ", end="")
     videoPath = input()
-    #'/home/v3d/Downloads/ovelha420.mp4'
 
     detec.onVideo(videoPath)
 
@@ -25,7 +24,7 @@ elif choice == 2:
     imagePath = input()
     
     detec.onImage(imagePath)
-    #"/home/v3d/Documents/detectron2/4.png"
+
 else:
     exit(1)
 
